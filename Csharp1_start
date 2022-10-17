@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace laba1._1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double S, alpha, n, pi;
+            Console.WriteLine("program for finding angle alpha and sum of interior angles");
+            Console.Write("Enter the nuber for n: ");
+            n = Convert.ToDouble (Console.ReadLine());
+
+            pi = 3.14;
+            alpha = (pi * (n - 2)) / pi;
+            S = pi * (n - 2);
+
+            Console.WriteLine("Alpha = " + alpha);
+            Console.WriteLine("Squar = " + S);   
+
+
+            Console.ReadKey();
+        }
+    }
+}
